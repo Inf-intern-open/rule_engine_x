@@ -140,7 +140,7 @@ def delet(mylist):
 
 import pandas as pd
 df=pd.read_excel('C:/Users/ThinkPad/AppData/Local/Temp/Rar$DIa12632.49208/诊断规则.xlsx')
-# print(df['规则明细json'])
+
 c=0
 for i in df['规则明细json']:
     i=load_json(i)
