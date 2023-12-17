@@ -27,6 +27,7 @@ for i in range(2):
         return terminal_random_output
 
     def handle_all_rule(a):
+        handle_any()
         a=jsonpath(a, '$..all')
         return a
     b1=handle_all_rule(s)
@@ -59,7 +60,6 @@ for i in range(2):
         l_all=[]
         for i in a1:
             for j in i:
-
                 if 'any' not in j.keys():
                     try:
                         if j['value'] != None:
