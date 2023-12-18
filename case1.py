@@ -116,7 +116,7 @@ def change_value(mylist):
                         item['value'] = random.uniform(item['value'] , 500)
                     else:
                         item['value'] = random.uniform(-10,item['value'] )
-                if item['rule_type'] == 'abnormal_quantifiable_rule':
+                if item['rule_type'] == 'abnormal_text_rule':
                     continue
             except Exception as e:
                 pass
