@@ -106,7 +106,9 @@ def change_value(mylist):
                     b=item['value']
             except Exception as e:
                 pass
+            print(a, b)
             item['value'] = random.uniform(a,b)
+
         else:
             try:
                 if item['rule_type']=='abnormal_quantifiable_rule':
@@ -147,7 +149,7 @@ for i in df['规则明细json']:
     i=load_json(i)
     try:
         res_l.append(delet(change_value(handle_rule_detail(i))))
-        print(delet(change_value(handle_rule_detail(i))))
+        # print(delet(change_value(handle_rule_detail(i))))
     except Exception as e:
         pass
     with open(os.path.join('./', 'positive_case.jsonl'), 'w', encoding='utf-8') as jsonl_file:
