@@ -106,14 +106,15 @@ def change_value(mylist):
                     b=item['value']
             except Exception as e:
                 pass
-            item['value'] = random.uniform(a,b)
+            item['value'] = random.uniform(b,500)
         else:
             try:
                 if item['rule_type']=='abnormal_quantifiable_rule':
                     if item['operator']=='>' or item['operator']=='≥':
-                        item['value'] = random.uniform(item['value'] , 500)
+                        item['value'] = random.uniform(-10, item['value'])
                     else:
-                        item['value'] = random.uniform(-10,item['value'] )
+
+                        item['value'] = random.uniform(item['value'], 500)
                 if item['rule_type'] == 'abnormal_quantifiable_rule':
                     continue
             except Exception as e:
@@ -137,25 +138,26 @@ def delet(mylist):
 #     detail=rule_detail['partial']['rules']
 #     return detail
 # handle_rule_detail(json_dict)
-print(delet(change_value(handle_rule_detail(json_dict13))))
+
 import pandas as pd
 df=pd.read_excel('C:/Users/ThinkPad/AppData/Local/Temp/Rar$DIa12632.49208/诊断规则.xlsx')
 res_l=[]
-res_l.append(delet(change_value(handle_rule_detail(json_dict13))))
 c=0
 for i in df['规则明细json']:
     i=load_json(i)
     try:
         res_l.append(delet(change_value(handle_rule_detail(i))))
-        print(delet(change_value(handle_rule_detail(i))))
     except Exception as e:
         pass
-    with open(os.path.join('./', 'positive_case.jsonl'), 'w', encoding='utf-8') as jsonl_file:
+    with open(os.path.join('./', 'negative_case.jsonl'), 'w', encoding='utf-8') as jsonl_file:
         for item in res_l:
             json.dump(item, jsonl_file, ensure_ascii=False)
             jsonl_file.write('\n')  # 添加换行符，分隔每个 JSON 对象
     print(c)
     c+=1
+
+
+
 
 
 
