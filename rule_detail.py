@@ -26,6 +26,7 @@ json_dict11={'any': [{'all': [{'rule_type': 'abnormal_quantifiable_rule', 'entit
 json_dict3={'all': [{'rule_type': 'abnormal_quantifiable_rule', 'entity': '弥漫性肝脏密度降低', 'operator': 'is', 'value': True}, {'rule_type': 'abnormal_quantifiable_rule', 'entity': '肝/脾CT比值', 'operator': '≤', 'value': 0.5}]}
 json_dict16={'partial': {'at_least': 3, 'rules': [{'rule_type': 'abnormal_quantifiable_rule', 'entity': '体重指数', 'operator': '≥', 'value': 25}, {'any': [{'rule_type': 'abnormal_quantifiable_rule', 'entity': '空腹血糖', 'operator': '≥', 'value': 6.1, 'unit': 'mmol/L'}, {'rule_type': 'abnormal_quantifiable_rule', 'entity': '2小时血糖', 'operator': '≥', 'value': 7.8, 'unit': 'mmol/L'}, {'rule_type': 'abnormal_text_rule', 'entity': '糖尿病'}]}, {'any': [{'rule_type': 'abnormal_quantifiable_rule', 'entity': '收缩压', 'operator': '≥', 'value': 140, 'unit': 'mmHg'}, {'rule_type': 'abnormal_quantifiable_rule', 'entity': '舒张压', 'operator': '≥', 'value': 90, 'unit': 'mmHg'}, {'rule_type': 'abnormal_text_rule', 'entity': '高血压'}]}, {'any': [{'rule_type': 'abnormal_quantifiable_rule', 'entity': '甘油三酯', 'operator': '≥', 'value': 1.7, 'unit': 'mmol/L'}, {'all': [{'rule_type': 'normal_quantifiable_rule', 'entity': '性别', 'operator': 'is', 'value': '男'}, {'rule_type': 'abnormal_quantifiable_rule', 'entity': '高密度脂蛋白', 'operator': '<', 'value': 0.9, 'unit': 'mmol/L'}]}, {'all': [{'rule_type': 'normal_quantifiable_rule', 'entity': '性别', 'operator': 'is', 'value': '女'}, {'rule_type': 'abnormal_quantifiable_rule', 'entity': '高密度脂蛋白', 'operator': '<', 'value': 1, 'unit': 'mmol/L'}]}]}]}}
 json_dict13={'all': [{'any': [{'rule_type': 'abnormal_text_rule', 'entity': '乳腺增生性疾病类别', 'operator': 'is', 'value': '1类'}, {'rule_type': 'abnormal_text_rule', 'entity': '乳腺增生性疾病类别', 'operator': 'is', 'value': '2类'}, {'rule_type': 'abnormal_text_rule', 'entity': '乳腺增生性疾病类别', 'operator': 'is', 'value': '3类'}, {'rule_type': 'abnormal_text_rule', 'entity': '乳腺增生性疾病类别', 'operator': 'is', 'value': '4类'}], 'rule_type': 'abnormal_text_rule', 'entity': '乳腺增生性疾病边界清楚'}]}
+json_dict20={"all": [{"rule_type": "abnormal_text_rule", "entity": "各种类型室上性心动过速"}, {"rule_type": "abnormal_quantifiable_rule", "entity": "心室率", "operator": "≥", "value": 200, "unit": "次/min"}]}
 
 
 import json
@@ -95,22 +96,53 @@ def count_occurrences(mylist, value):
                 count += 1
     return count
 
-def change_value(mylist):
+def change_value_positive(mylist):
+    a, b = 0, 0
+    for item in mylist:
+        if count_occurrences(mylist, item['entity']) == 2:
+            if item['rule_type'] == 'abnormal_quantifiable_rule':
+                try:
+                    if item['operator']=='>' or item['operator']=='≥':
+                        a=item['value']
+                    else:
+                        b=item['value']
+                except Exception as e:
+                    pass
+                # print(a, b)
+                item['value'] = random.uniform(a,b)
+
+        else:
+            try:
+                if item['rule_type']=='abnormal_quantifiable_rule':
+                    if item['operator'] == 'is_in':
+                        item['value']=item['value'][random.randint(0,len(item['value'])-1)]
+                    if item['operator']=='>' or item['operator']=='≥':
+                        item['value'] = random.uniform(item['value'] , 500)
+                    else:
+                        item['value'] = random.uniform(-10,item['value'] )
+                if item['rule_type'] == 'abnormal_text_rule':
+                    continue
+            except Exception as e:
+                pass
+
+    return mylist
+
+def change_value_negative(mylist):
     a, b = 0, 0
     for item in mylist:
         if count_occurrences(mylist, item['entity']) == 2:
             try:
-                if item['operator']=='>' or item['operator']=='≥':
-                    a=item['value']
+                if item['operator'] == '>' or item['operator'] == '≥':
+                    a = item['value']
                 else:
-                    b=item['value']
+                    b = item['value']
             except Exception as e:
                 pass
-            item['value'] = random.uniform(b,500)
+            item['value'] = random.uniform(b, 500)
         else:
             try:
-                if item['rule_type']=='abnormal_quantifiable_rule':
-                    if item['operator']=='>' or item['operator']=='≥':
+                if item['rule_type'] == 'abnormal_quantifiable_rule':
+                    if item['operator'] == '>' or item['operator'] == '≥':
                         item['value'] = random.uniform(-10, item['value'])
                     else:
 
@@ -126,12 +158,14 @@ def delet(mylist):
     for item in mylist:
         if count_occurrences(mylist, item['entity']) == 2:
             mylist.remove(item)
-    try:
-        for elment in mylist:
+
+
+    for elment in mylist:
+        try:
             del elment['rule_type']
             del elment['operator']
-    except Exception as e:
-        pass
+        except Exception as e:
+            pass
     return mylist
 
 # def rule_detail_partial(rule_detail:dict):
@@ -139,25 +173,27 @@ def delet(mylist):
 #     return detail
 # handle_rule_detail(json_dict)
 
-import pandas as pd
-df=pd.read_excel('C:/Users/ThinkPad/AppData/Local/Temp/Rar$DIa12632.49208/诊断规则.xlsx')
-res_l=[]
-c=0
-for i in df['规则明细json']:
-    i=load_json(i)
-    try:
-        res_l.append(delet(change_value(handle_rule_detail(i))))
-    except Exception as e:
-        pass
-    with open(os.path.join('./', 'negative_case.jsonl'), 'w', encoding='utf-8') as jsonl_file:
-        for item in res_l:
-            json.dump(item, jsonl_file, ensure_ascii=False)
-            jsonl_file.write('\n')  # 添加换行符，分隔每个 JSON 对象
-    print(c)
-    c+=1
 
 
-
+# print(delet(change_value_positive(handle_rule_detail(json_dict20))))
+# import pandas as pd
+# df=pd.read_excel('C:/Users/ThinkPad/AppData/Local/Temp/Rar$DIa12632.49208/诊断规则.xlsx')
+# res_l=[]
+#
+# c=0
+# for i in df['规则明细json']:
+#     i=load_json(i)
+#     try:
+#         res_l.append(delet(change_value_positive(handle_rule_detail(i))))
+#         # print(delet(change_value(handle_rule_detail(i))))
+#     except Exception as e:
+#         pass
+#     with open(os.path.join('./', 'positive_case.jsonl'), 'w', encoding='utf-8') as jsonl_file:
+#         for item in res_l:
+#             json.dump(item, jsonl_file, ensure_ascii=False)
+#             jsonl_file.write('\n')  # 添加换行符，分隔每个 JSON 对象
+#     print(c)
+#     c+=1
 
 
 
