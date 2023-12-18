@@ -114,7 +114,7 @@ def change_value_positive(mylist):
         else:
             try:
                 if item['rule_type']=='abnormal_quantifiable_rule':
-                    if item['operator'] == 'is_in':
+                    if item['operator'] == 'in':
                         item['value']=item['value'][random.randint(0,len(item['value'])-1)]
                     if item['operator']=='>' or item['operator']=='≥':
                         item['value'] = random.uniform(item['value'] , 500)
@@ -142,6 +142,8 @@ def change_value_negative(mylist):
         else:
             try:
                 if item['rule_type'] == 'abnormal_quantifiable_rule':
+                    if item['operator'] == 'in':
+                        item['value']=item['value'][len(item['value'])-random.randint(0,len(item['value'])-1)-1]
                     if item['operator'] == '>' or item['operator'] == '≥':
                         item['value'] = random.uniform(-10, item['value'])
                     else:
@@ -158,8 +160,6 @@ def delet(mylist):
     for item in mylist:
         if count_occurrences(mylist, item['entity']) == 2:
             mylist.remove(item)
-
-
     for elment in mylist:
         try:
             del elment['rule_type']
