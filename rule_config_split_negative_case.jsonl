@@ -1,78 +1,78 @@
-{"grade": "A", "data": [{"entity": "血红蛋白", "value": 44.083940481988925, "unit": "g/L"}, {"entity": "首次"}]}
-{"grade": "A", "data": [{"entity": "Hb", "value": 25.959744796535958, "unit": "g/L"}, {"entity": "历次"}]}
-{"grade": "A", "data": [{"entity": "血红蛋白", "value": -2.534961758075836, "unit": "g/L"}]}
-{"grade": "A", "data": [{"entity": "血小板计数", "value": 26.78324637708569, "unit": "×109/L"}, {"entity": "首次"}]}
+{"grade": "A", "data": [{"entity": "血红蛋白", "value": -4.234702117714249, "unit": "g/L"}, {"entity": "首次"}]}
+{"grade": "A", "data": [{"entity": "Hb", "value": 11.139814361356667, "unit": "g/L"}, {"entity": "历次"}]}
+{"grade": "A", "data": [{"entity": "血红蛋白", "value": 338.33674526802423, "unit": "g/L"}]}
+{"grade": "A", "data": [{"entity": "血小板计数", "value": 9.96198053857696, "unit": "×109/L"}, {"entity": "首次"}]}
 {"grade": "A", "data": [{"entity": "有明显出血倾向"}]}
-{"grade": "A", "data": [{"entity": "血小板", "value": 517.1964809828222, "unit": "×109/L"}]}
-{"grade": "A", "data": [{"entity": "白细胞计数", "value": -7.003001533775587, "unit": "×109/L"}]}
-{"grade": "A", "data": [{"entity": "中性粒细胞（NEU）绝对值", "value": -3.56061181588015, "unit": "×109/L"}]}
-{"grade": "A", "data": [{"entity": "FPG", "value": 164.00039328866234, "unit": "mmol/L"}, {"entity": "糖尿病史"}]}
-{"grade": "A", "data": [{"entity": "FPG", "value": 385.5456676995607, "unit": "mmol/L"}, {"entity": "尿酮体阳性"}]}
-{"grade": "A", "data": [{"entity": "随机血糖", "value": 308.4203865436687, "unit": "mmol/L"}]}
-{"grade": "A", "data": [{"entity": "空腹血糖", "value": 1.6284591552077377, "unit": "mmol/L"}, {"entity": "糖尿病史"}]}
-{"grade": "A", "data": [{"entity": "FPG", "value": -0.9640403571371365, "unit": "mmol/L"}, {"entity": "糖尿病史"}]}
-{"grade": "A", "data": [{"entity": "血清钠", "value": 61.313481085978594, "unit": "mmol/L"}]}
-{"grade": "A", "data": [{"entity": "血清钠", "value": 195.16988369845433, "unit": "mmol/L"}]}
-{"grade": "A", "data": [{"entity": "血清钾", "value": -1.9749761336809897, "unit": "mmol/L"}]}
-{"grade": "A", "data": [{"entity": "血清钾", "value": 329.40180606767257, "unit": "mmol/L"}]}
-{"grade": "A", "data": [{"entity": "血清钙", "value": -6.212707303528847, "unit": "mmol/L"}]}
-{"grade": "A", "data": [{"entity": "血清钙", "value": 135.70127169947477, "unit": "mmol/L"}]}
+{"grade": "A", "data": [{"entity": "血小板", "value": 909.7259081715789, "unit": "×109/L"}]}
+{"grade": "A", "data": [{"entity": "白细胞计数", "value": -5.244179389872715, "unit": "×109/L"}]}
+{"grade": "A", "data": [{"entity": "中性粒细胞（NEU）绝对值", "value": -8.347671389599185, "unit": "×109/L"}]}
+{"grade": "A", "data": [{"entity": "FPG", "value": 373.22934304454924, "unit": "mmol/L"}, {"entity": "糖尿病史"}]}
+{"grade": "A", "data": [{"entity": "FPG", "value": 256.72343904053736, "unit": "mmol/L"}, {"entity": "尿酮体阳性"}]}
+{"grade": "A", "data": [{"entity": "随机血糖", "value": 122.62293056298947, "unit": "mmol/L"}]}
+{"grade": "A", "data": [{"entity": "空腹血糖", "value": -3.3017474747027373, "unit": "mmol/L"}, {"entity": "糖尿病史"}]}
+{"grade": "A", "data": [{"entity": "FPG", "value": -9.745279204768998, "unit": "mmol/L"}, {"entity": "糖尿病史"}]}
+{"grade": "A", "data": [{"entity": "血清钠", "value": 40.81749907645059, "unit": "mmol/L"}]}
+{"grade": "A", "data": [{"entity": "血清钠", "value": 460.6317042565259, "unit": "mmol/L"}]}
+{"grade": "A", "data": [{"entity": "血清钾", "value": -5.7536701241170585, "unit": "mmol/L"}]}
+{"grade": "A", "data": [{"entity": "血清钾", "value": 301.4200107877367, "unit": "mmol/L"}]}
+{"grade": "A", "data": [{"entity": "血清钙", "value": -1.9275817283276044, "unit": "mmol/L"}]}
+{"grade": "A", "data": [{"entity": "血清钙", "value": 349.05948437002223, "unit": "mmol/L"}]}
 {"grade": "A", "data": [{"entity": "首次发现疑似急性心肌梗死的心电图改变"}]}
 {"grade": "A", "data": [{"entity": "首次发现疑似各种急性心肌缺血的心电图改变"}]}
 {"grade": "A", "data": [{"entity": "再发急性心肌梗死的心电图改变"}, {"entity": "注意与以往心电图及临床病史比较"}]}
 {"grade": "A", "data": [{"entity": "心室扑动"}]}
 {"grade": "A", "data": [{"entity": "心室颤动"}]}
-{"grade": "A", "data": [{"entity": "室性心动过速心室率", "value": 337.1525863721699, "unit": "次/min"}, {"entity": "持续时间", "value": 30.0, "unit": "s"}, {"entity": "伴血流动力学障碍"}]}
+{"grade": "A", "data": [{"entity": "室性心动过速心室率", "value": 393.6838080049618, "unit": "次/min"}, {"entity": "持续时间", "value": 22.96024634885414, "unit": "s"}, {"entity": "伴血流动力学障碍"}]}
 {"grade": "A", "data": [{"entity": "尖端扭转型室性心动过速"}]}
 {"grade": "A", "data": [{"entity": "多形性室性心动过速"}]}
 {"grade": "A", "data": [{"entity": "双向性室性心动过速"}]}
-{"grade": "A", "data": [{"entity": "各种类型室上性心动过速"}, {"entity": "心室率", "value": 234.38369866129338, "unit": "次/min"}]}
-{"grade": "A", "data": [{"entity": "心房颤动伴心室预激"}, {"entity": "最短RR间期", "value": 120.45370174909078, "unit": "ms"}]}
+{"grade": "A", "data": [{"entity": "各种类型室上性心动过速"}, {"entity": "心室率", "value": 453.35646409099206, "unit": "次/min"}]}
+{"grade": "A", "data": [{"entity": "心房颤动伴心室预激"}, {"entity": "最短RR间期", "value": 108.67102213342402, "unit": "ms"}]}
 {"grade": "A", "data": [{"entity": "严重心动过缓"}]}
 {"grade": "A", "data": [{"entity": "高度及III度房室阻滞"}]}
-{"grade": "A", "data": [{"entity": "平均心室率", "value": -1.317271471620483, "unit": "次/min"}]}
-{"grade": "A", "data": [{"entity": "长RR间期", "value": 175.941867431785, "unit": "s"}, {"entity": "症状"}]}
-{"grade": "A", "data": [{"entity": "长RR间期", "value": 177.86478330960645, "unit": "s"}, {"entity": "症状"}]}
+{"grade": "A", "data": [{"entity": "平均心室率", "value": -7.957415137211637, "unit": "次/min"}]}
+{"grade": "A", "data": [{"entity": "长RR间期", "value": 342.2356550878064, "unit": "s"}, {"entity": "症状"}]}
+{"grade": "A", "data": [{"entity": "长RR间期", "value": 462.77885026235595, "unit": "s"}, {"entity": "症状"}]}
 {"grade": "A", "data": [{"entity": "提示严重低钾血症心电图表现"}]}
 {"grade": "A", "data": [{"entity": "QT（U）显著延长"}]}
 {"grade": "A", "data": [{"entity": "出现快速性心律失常"}]}
 {"grade": "A", "data": [{"entity": "提示严重高钾血症的心电图表现"}]}
 {"grade": "A", "data": [{"entity": "窦室传导"}]}
 {"grade": "A", "data": [{"entity": "疑似急性肺栓塞心电图表现"}]}
-{"grade": "A", "data": [{"entity": "QTc", "value": 547.0728148079337, "unit": "ms"}]}
+{"grade": "A", "data": [{"entity": "QTc", "value": 536.0797706047396, "unit": "ms"}]}
 {"grade": "A", "data": [{"entity": "显性T波电交替"}]}
 {"grade": "A", "data": [{"entity": "RonT型室性早搏"}]}
 {"grade": "A", "data": [{"entity": "心脏起搏器起搏及感知功能障碍"}]}
-{"grade": "B", "data": [{"entity": "血红蛋白", "value": 42.09353722823234, "unit": "g/L"}, {"entity": "历次"}]}
-{"grade": "B", "data": [{"entity": "血小板计数", "value": 46.384626190808234, "unit": "×109/L"}, {"entity": "首次"}]}
-{"grade": "B", "data": [{"entity": "白细胞计数", "value": -2.1703425018123497, "unit": "×109/L"}, {"entity": "首次"}]}
-{"grade": "B", "data": [{"entity": "白细胞计数", "value": 4.549166640217761, "unit": "×109/L"}, {"entity": "首次"}]}
+{"grade": "B", "data": [{"entity": "血红蛋白", "value": -6.093746700253957, "unit": "g/L"}, {"entity": "历次"}]}
+{"grade": "B", "data": [{"entity": "血小板计数", "value": 44.5537820730185, "unit": "×109/L"}, {"entity": "首次"}]}
+{"grade": "B", "data": [{"entity": "白细胞计数", "value": 0.7392082720012869, "unit": "×109/L"}, {"entity": "首次"}]}
+{"grade": "B", "data": [{"entity": "白细胞计数", "value": 261.7996316320788, "unit": "×109/L"}, {"entity": "首次"}]}
 {"grade": "B", "data": [{"entity": "发现幼稚细胞"}]}
 {"grade": "B", "data": [{"entity": "白细胞分类严重异常"}]}
-{"grade": "B", "data": [{"entity": "肝囊肿直径", "value": 270.073315895441, "unit": "cm"}]}
+{"grade": "B", "data": [{"entity": "肝囊肿直径", "value": 98.47855104605095, "unit": "cm"}]}
 {"grade": "B", "data": [{"entity": "单纯性肝囊肿诊断不够明确、不能排除胆管囊腺瘤（癌）等其他可能者"}]}
 {"grade": "B", "data": [{"entity": "囊肿合并感染、出血者"}]}
-{"grade": "B", "data": [{"entity": "血管瘤直径", "value": 248.35520403284465, "unit": "cm"}]}
-{"grade": "B", "data": [{"entity": "血管瘤直径", "value": 9.973698923734846, "unit": "cm"}, {"entity": "有发生外伤性破裂危险"}]}
-{"grade": "B", "data": [{"entity": "血管瘤直径", "value": 4.696086467985962, "unit": "cm"}, {"entity": "有明显临床症状"}]}
-{"grade": "B", "data": [{"entity": "血管瘤直径", "value": 214.14480180607765, "unit": "cm"}, {"entity": "近2年临床随访观察影像学检查提示瘤体直径增大"}, {"entity": "瘤体直径增大", "value": 456.94385816248507, "unit": "cm"}]}
+{"grade": "B", "data": [{"entity": "血管瘤直径", "value": 176.65126684628282, "unit": "cm"}]}
+{"grade": "B", "data": [{"entity": "血管瘤直径", "value": 7.548543540809498, "unit": "cm"}, {"entity": "位于肝缘"}]}
+{"grade": "B", "data": [{"entity": "血管瘤直径", "value": 3.5218850533915393, "unit": "cm"}, {"entity": "有明显临床症状"}]}
+{"grade": "B", "data": [{"entity": "血管瘤直径", "value": 235.2480065357508, "unit": "cm"}, {"entity": "近2年临床随访观察影像学检查提示瘤体直径增大"}, {"entity": "瘤体直径增大", "value": 28.47242334992067, "unit": "cm"}]}
 {"grade": "B", "data": [{"entity": "肝脏占位"}, {"entity": "高度可疑恶性病变"}]}
 {"grade": "B", "data": [{"entity": "胆管"}, {"entity": "高度可疑恶性病变"}]}
-{"grade": "B", "data": [{"entity": "胆囊息肉", "value": "单发"}, {"entity": "病变直径", "value": 112.42663806225528, "unit": "mm"}]}
-{"grade": "B", "data": [{"entity": "病变直径", "value": 18.278685386693788, "unit": "mm"}, {"entity": "年龄", "value": 50, "unit": "岁"}, {"entity": "无蒂性或广基病变"}, {"entity": "病变在短期内基底变宽、有增大趋势或病灶周围黏膜有浸润、增厚表现"}]}
+{"grade": "B", "data": [{"entity": "胆囊息肉", "value": "单发"}, {"entity": "病变直径", "value": 354.8835510280844, "unit": "mm"}]}
+{"grade": "B", "data": [{"entity": "病变直径", "value": 462.0640131911424, "unit": "mm"}, {"entity": "年龄", "value": 50, "unit": "岁"}, {"entity": "无蒂性或广基病变"}, {"entity": "病变在短期内基底变宽、有增大趋势或病灶周围黏膜有浸润、增厚表现"}]}
 {"grade": "B", "data": [{"entity": "胆囊占位"}, {"entity": "高度可疑恶性病变"}]}
-{"grade": "B", "data": [{"entity": "胰腺囊肿"}, {"entity": "囊肿直径", "value": 436.523043490946, "unit": "cm"}]}
+{"grade": "B", "data": [{"entity": "胰腺囊肿"}, {"entity": "主胰管扩张", "value": 333.77712862336415, "unit": "mm"}, {"entity": "囊肿直径", "value": 440.64375214671054, "unit": "cm"}]}
 {"grade": "B", "data": [{"entity": "胰腺占位"}, {"entity": "高度可疑恶性病变"}]}
 {"grade": "B", "data": [{"entity": "疑似急性胰腺炎"}]}
 {"grade": "B", "data": [{"entity": "脾大", "value": "中度以上"}]}
 {"grade": "B", "data": [{"entity": "脾脏占位", "value": "高度可疑恶性病变"}]}
-{"grade": "B", "data": [{"entity": "囊肿直径", "value": 458.58144639396096, "unit": "cm"}, {"entity": "肾囊肿"}]}
+{"grade": "B", "data": [{"entity": "囊肿直径", "value": 460.54211954959123, "unit": "cm"}, {"entity": "肾囊肿"}]}
 {"grade": "B", "data": [{"entity": "肾脏占位"}, {"entity": "高度可疑恶性病变"}]}
 {"grade": "B", "data": [{"entity": "泌尿系梗阻"}, {"entity": "中度以上肾积水"}]}
-{"grade": "A", "data": [{"entity": "收缩压", "value": 432.51343418355793, "unit": "mmHg"}, {"entity": "舒张压", "value": 328.39244589595955, "unit": "mmHg"}, {"entity": "伴急性症状"}]}
-{"grade": "A", "data": [{"entity": "收缩压", "value": 294.96561130625105, "unit": "mmHg"}, {"entity": "安静休息后复测仍达此标准"}]}
-{"grade": "A", "data": [{"entity": "心率", "value": 360.44137612296686, "unit": "次/min"}]}
-{"grade": "A", "data": [{"entity": "心率", "value": 7.024736144271394, "unit": "次/min"}]}
+{"grade": "A", "data": [{"entity": "收缩压", "value": 338.6587937669451, "unit": "mmHg"}, {"entity": "伴急性症状"}]}
+{"grade": "A", "data": [{"entity": "收缩压", "value": 419.2950388470908, "unit": "mmHg"}, {"entity": "舒张压", "value": 272.08292389364703, "unit": "mmHg"}, {"entity": "安静休息后复测仍达此标准"}]}
+{"grade": "A", "data": [{"entity": "心率", "value": 249.92437194321343, "unit": "次/min"}]}
+{"grade": "A", "data": [{"entity": "心率", "value": -8.738140616914755, "unit": "次/min"}]}
 {"grade": "A", "data": [{"entity": "严重心律失常"}]}
 {"grade": "A", "data": [{"entity": "呼吸音消失"}]}
 {"grade": "A", "data": [{"entity": "呼吸音明显减弱"}]}
@@ -85,20 +85,20 @@
 {"grade": "A", "data": [{"entity": "眩晕发作"}]}
 {"grade": "A", "data": [{"entity": "暗红色血便"}]}
 {"grade": "A", "data": [{"entity": "粪隐血", "value": "++++"}]}
-{"grade": "A", "data": [{"entity": "丙氨酸转氨酶", "value": 352.2819476038937, "unit": "倍"}]}
-{"grade": "A", "data": [{"entity": "天冬氨酸氨基转移酶", "value": 136.5180736100189, "unit": "倍"}]}
-{"grade": "A", "data": [{"entity": "总胆红素", "value": 95.18997249610456, "unit": "倍"}]}
-{"grade": "A", "data": [{"entity": "血肌酐", "value": 665.2945539444493, "unit": "μmol/L"}, {"entity": "首次"}]}
-{"grade": "A", "data": [{"entity": "INR", "value": 236.3839836324114}]}
-{"grade": "A", "data": [{"entity": "血浆活化部分凝血活酶时间", "value": 416.36452384233866, "unit": "秒"}]}
-{"grade": "A", "data": [{"entity": "纤维蛋白原", "value": 55.43841373092616, "unit": "mg/dl"}]}
-{"grade": "A", "data": [{"entity": "纤维蛋白原", "value": 787.259227142585, "unit": "mg/dl"}]}
+{"grade": "A", "data": [{"entity": "丙氨酸转氨酶", "value": 56.037283732504775, "unit": "倍"}]}
+{"grade": "A", "data": [{"entity": "天冬氨酸氨基转移酶", "value": 49.127182744493794, "unit": "倍"}]}
+{"grade": "A", "data": [{"entity": "总胆红素", "value": 469.38499037366375, "unit": "倍"}]}
+{"grade": "A", "data": [{"entity": "血肌酐", "value": 632.7584267410949, "unit": "μmol/L"}, {"entity": "首次"}]}
+{"grade": "A", "data": [{"entity": "INR", "value": 111.97675544715642}]}
+{"grade": "A", "data": [{"entity": "血浆活化部分凝血活酶时间", "value": 386.58433564502656, "unit": "秒"}]}
+{"grade": "A", "data": [{"entity": "纤维蛋白原", "value": 9.111244264442064, "unit": "mg/dl"}]}
+{"grade": "A", "data": [{"entity": "纤维蛋白原", "value": 621.0550935156399, "unit": "mg/dl"}]}
 {"grade": "A", "data": [{"entity": "法定传染病阳性"}]}
 {"grade": "A", "data": [{"entity": "血液幼稚细胞"}, {"entity": "首次"}]}
 {"grade": "A", "data": [{"entity": "疑似急性冠状动脉综合征"}]}
 {"grade": "A", "data": [{"entity": "严重快速性心律失常"}]}
 {"grade": "A", "data": [{"entity": "严重缓慢性心律失常"}]}
-{"grade": "A", "data": [{"entity": "大量气胸"}, {"entity": "侧胸壁与肺切缘的距离", "value": 28.37043250676745, "unit": "cm"}]}
+{"grade": "A", "data": [{"entity": "大量气胸"}, {"entity": "侧胸壁与肺切缘的距离", "value": 231.57722013993833, "unit": "cm"}]}
 {"grade": "A", "data": [{"entity": "急性气胸"}]}
 {"grade": "A", "data": [{"entity": "液气胸"}]}
 {"grade": "A", "data": [{"entity": "大量胸腔积液"}]}
@@ -115,7 +115,7 @@
 {"grade": "A", "data": [{"entity": "脑出血"}]}
 {"grade": "A", "data": [{"entity": "蛛网膜下腔出血"}]}
 {"grade": "A", "data": [{"entity": "硬膜下/外血肿"}]}
-{"grade": "A", "data": [{"entity": "脑动脉瘤", "value": 0.4811608878210313, "unit": "cm"}]}
+{"grade": "A", "data": [{"entity": "脑动脉瘤", "value": 0.2788011687956855, "unit": "cm"}]}
 {"grade": "A", "data": [{"entity": "脑梗塞（急性期大面积）"}]}
 {"grade": "A", "data": [{"entity": "脑疝形成"}]}
 {"grade": "A", "data": [{"entity": "脊髓外伤（急性期）"}]}
@@ -150,7 +150,7 @@
 {"grade": "A", "data": [{"entity": "颌面部颅底骨折"}]}
 {"grade": "A", "data": [{"entity": "眼眶及内容物破裂"}]}
 {"grade": "A", "data": [{"entity": "眼眶内异物"}]}
-{"grade": "A", "data": [{"entity": "大量心包积液"}, {"entity": "心包填塞"}, {"entity": "无回声区", "value": 0.9706898297905084, "unit": "mm"}, {"entity": "有明显心脏摆动征"}]}
+{"grade": "A", "data": [{"entity": "大量心包积液"}, {"entity": "心包填塞"}, {"entity": "无回声区", "value": 363.77928749967117, "unit": "mm"}, {"entity": "有明显心脏摆动征"}]}
 {"grade": "A", "data": [{"entity": "急性心肌梗死"}]}
 {"grade": "A", "data": [{"entity": "多个壁段心肌收缩活动减弱至消失"}]}
 {"grade": "A", "data": [{"entity": "急性主动脉夹层"}, {"entity": "主动脉根部撕裂内膜片"}, {"entity": "累及主动脉瓣导致大量反流"}]}
@@ -166,7 +166,7 @@
 {"grade": "B", "data": [{"entity": "高度可疑恶性直肠和前列腺病变的体征"}]}
 {"grade": "B", "data": [{"entity": "高度可疑恶性外生殖器肿物的体征"}]}
 {"grade": "B", "data": [{"entity": "视乳头水肿"}]}
-{"grade": "B", "data": [{"entity": "眼压", "value": 387.21098235102784, "unit": "mmHg"}]}
+{"grade": "B", "data": [{"entity": "眼压", "value": 264.46135120313176, "unit": "mmHg"}]}
 {"grade": "B", "data": [{"entity": "疑似眼眶肿物"}]}
 {"grade": "B", "data": [{"entity": "角膜炎"}]}
 {"grade": "B", "data": [{"entity": "玻璃体积血"}]}
@@ -179,19 +179,19 @@
 {"grade": "B", "data": [{"entity": "高度可疑恶性的盆腔肿物"}]}
 {"grade": "B", "data": [{"entity": "结合盆腔超声检查结论"}]}
 {"grade": "B", "data": [{"entity": "尿潜血"}]}
-{"grade": "B", "data": [{"entity": "尿蛋白", "value": ["+++", "++++", "+++++"]}]}
+{"grade": "B", "data": [{"entity": "尿蛋白", "value": "++++"}]}
 {"grade": "B", "data": [{"entity": "尿红细胞满视野"}]}
-{"grade": "B", "data": [{"entity": "酮体", "value": ["++", "+++", "++++", "+++++"]}, {"entity": "糖尿病史"}]}
-{"grade": "B", "data": [{"entity": "酮体", "value": ["+++", "++++", "+++++"]}, {"entity": "糖尿病史"}]}
+{"grade": "B", "data": [{"entity": "酮体", "value": "+++"}, {"entity": "糖尿病史"}]}
+{"grade": "B", "data": [{"entity": "酮体", "value": "++++"}, {"entity": "糖尿病史"}]}
 {"grade": "B", "data": [{"entity": "潜血免疫法阳性"}]}
-{"grade": "B", "data": [{"entity": "ALT", "value": 6.802805383418406, "unit": "times"}]}
-{"grade": "B", "data": [{"entity": "AST", "value": 8.587547864327316, "unit": "times"}]}
-{"grade": "B", "data": [{"entity": "总胆红素", "value": 4.219639643838839, "unit": "times"}]}
-{"grade": "B", "data": [{"entity": "血肌酐", "value": 655.7163984418582, "unit": "μmol/L"}]}
-{"grade": "B", "data": [{"entity": "肌酸激酶", "value": 265.12796221576497, "unit": "倍"}]}
-{"grade": "B", "data": [{"entity": "甘油三酯", "value": -1.1270024392438796, "unit": "mmol/l"}]}
+{"grade": "B", "data": [{"entity": "ALT", "value": 12.203784281427819, "unit": "times"}]}
+{"grade": "B", "data": [{"entity": "AST", "value": 10.439547842769064, "unit": "times"}]}
+{"grade": "B", "data": [{"entity": "总胆红素", "value": 3.3685053329410044, "unit": "times"}]}
+{"grade": "B", "data": [{"entity": "血肌酐", "value": 585.238314164877, "unit": "μmol/L"}]}
+{"grade": "B", "data": [{"entity": "肌酸激酶", "value": 25.09598194698011, "unit": "倍"}]}
+{"grade": "B", "data": [{"entity": "甘油三酯", "value": 55.6322090128518, "unit": "mmol/l"}]}
 {"grade": "B", "data": [{"entity": "cTnT", "value": 0.03}]}
-{"grade": "B", "data": [{"entity": "TSH", "value": 330.5855066156912, "unit": "mIU/L"}]}
+{"grade": "B", "data": [{"entity": "TSH", "value": 223.81127251024097, "unit": "mIU/L"}]}
 {"grade": "B", "data": [{"entity": "不能排除高级别鳞状上皮内病变"}]}
 {"grade": "B", "data": [{"entity": "不典型鳞状细胞（ASC-H）"}]}
 {"grade": "B", "data": [{"entity": "低级别鳞状上皮内病变（LSIL）"}]}
@@ -201,16 +201,16 @@
 {"grade": "B", "data": [{"entity": "腺原位癌（AIS）"}]}
 {"grade": "B", "data": [{"entity": "腺癌"}]}
 {"grade": "B", "data": [{"entity": "其他恶性肿瘤"}]}
-{"grade": "B", "data": [{"entity": "PSA", "value": 74.79320759094944, "unit": "μg/L"}]}
-{"grade": "B", "data": [{"entity": "fPSA/PSA", "value": -3.6262826055914372}]}
-{"grade": "B", "data": [{"entity": "CA125", "value": 190.11924199247312, "unit": "U/mL"}, {"entity": "绝经后"}, {"entity": "恶性盆腔肿块"}]}
-{"grade": "B", "data": [{"entity": "AFP", "value": 275.129517764314, "unit": "倍"}]}
-{"grade": "B", "data": [{"entity": "CA242", "value": 251.64017111503543, "unit": "倍"}]}
-{"grade": "B", "data": [{"entity": "CA19-9", "value": 286.1589130615669, "unit": "倍"}]}
-{"grade": "B", "data": [{"entity": "CEA", "value": 405.6731927377364, "unit": "倍"}]}
-{"grade": "B", "data": [{"entity": "CYFRA21-1", "value": 2.9022219501369113, "unit": "倍"}]}
-{"grade": "B", "data": [{"entity": "SCC", "value": 305.27395442796524, "unit": "倍"}]}
-{"grade": "B", "data": [{"entity": "NSE", "value": 89.00709805650078, "unit": "倍"}]}
+{"grade": "B", "data": [{"entity": "PSA", "value": 105.80121808666097, "unit": "μg/L"}]}
+{"grade": "B", "data": [{"entity": "fPSA/PSA", "value": -6.942830878660466}]}
+{"grade": "B", "data": [{"entity": "CA125", "value": 499.24472546813314, "unit": "U/mL"}, {"entity": "绝经后"}, {"entity": "恶性盆腔肿块"}]}
+{"grade": "B", "data": [{"entity": "AFP", "value": 376.94921855295803, "unit": "倍"}]}
+{"grade": "B", "data": [{"entity": "CA242", "value": 22.79573346362234, "unit": "倍"}]}
+{"grade": "B", "data": [{"entity": "CA19-9", "value": 345.1922973201349, "unit": "倍"}]}
+{"grade": "B", "data": [{"entity": "CEA", "value": 203.2395964908242, "unit": "倍"}]}
+{"grade": "B", "data": [{"entity": "CYFRA21-1", "value": 454.6443785667497, "unit": "倍"}]}
+{"grade": "B", "data": [{"entity": "SCC", "value": 474.7730188503826, "unit": "倍"}]}
+{"grade": "B", "data": [{"entity": "NSE", "value": 381.0799193008609, "unit": "倍"}]}
 {"grade": "B", "data": [{"entity": "7种微小核糖核酸阳性"}]}
 {"grade": "B", "data": [{"entity": "异常凝血酶"}]}
 {"grade": "B", "data": [{"entity": "AFP异构体"}]}
@@ -228,21 +228,21 @@
 {"grade": "B", "data": [{"entity": "骨骼占位性病变"}]}
 {"grade": "B", "data": [{"entity": "高度可疑恶性病变"}]}
 {"grade": "B", "data": [{"entity": "肺内可疑单发或多发结节病灶或占位性病灶"}]}
-{"grade": "B", "data": [{"entity": "占位性病灶", "value": 3.8179453685492923, "unit": "mm"}]}
-{"grade": "B", "data": [{"entity": "肺内有毛玻璃样结节", "value": 6.554599274838254, "unit": "mm"}]}
+{"grade": "B", "data": [{"entity": "占位性病灶", "value": 91.0875439801929, "unit": "mm"}]}
+{"grade": "B", "data": [{"entity": "肺内有毛玻璃样结节", "value": 119.34229803208832, "unit": "mm"}]}
 {"grade": "B", "data": [{"entity": "毛玻璃样结节建议"}, {"entity": "3个月内随访"}]}
-{"grade": "B", "data": [{"entity": "血管狭窄程度", "value": 462.4480682450491, "unit": "%"}, {"entity": "中、重度狭窄"}]}
+{"grade": "B", "data": [{"entity": "血管狭窄程度", "value": 216.9138444935505, "unit": "%"}, {"entity": "中、重度狭窄"}]}
 {"grade": "B", "data": [{"entity": "神经源性肿瘤"}]}
 {"grade": "B", "data": [{"entity": "新发骨折"}]}
 {"grade": "B", "data": [{"entity": "新发骨裂"}]}
-{"grade": "U", "data": [{"entity": "ALT", "value": 2.08758535080198, "unit": "倍"}]}
-{"grade": "U", "data": [{"entity": "AST", "value": 2.1813396003294105, "unit": "倍"}]}
-{"grade": "U", "data": [{"entity": "总胆红素", "value": 2.5834879487626448, "unit": "倍"}]}
-{"grade": "U", "data": [{"entity": "肌酐升高"}, {"entity": "肌酐", "value": 260.8020738169718}]}
-{"grade": "U", "data": [{"entity": "血尿酸", "value": 557.1786167437193}]}
+{"grade": "U", "data": [{"entity": "ALT", "value": 4.0729350169387, "unit": "倍"}]}
+{"grade": "U", "data": [{"entity": "AST", "value": 2.1736745262481096, "unit": "倍"}]}
+{"grade": "U", "data": [{"entity": "总胆红素", "value": 2.861103957948803, "unit": "倍"}]}
+{"grade": "U", "data": [{"entity": "肌酐升高"}, {"entity": "肌酐", "value": 252.83697692884442}]}
+{"grade": "U", "data": [{"entity": "血尿酸", "value": 525.9838376840084}]}
 {"grade": "U", "data": [{"entity": "未诊断糖尿病"}, {"entity": "血糖升高未达A类标准"}]}
 {"grade": "U", "data": [{"entity": "甲状腺功能亢进"}]}
-{"grade": "U", "data": [{"entity": "前列腺指数升高"}, {"entity": "PSA", "value": 6.9322886893555316}]}
+{"grade": "U", "data": [{"entity": "前列腺指数升高"}, {"entity": "PSA", "value": 8.019559515894521}]}
 {"grade": "U", "data": [{"entity": "重度宫颈炎"}]}
 {"grade": "U", "data": [{"entity": "阴道炎"}]}
 {"grade": "U", "data": [{"entity": "HPV高危16阳性"}]}
@@ -251,7 +251,7 @@
 {"grade": "U", "data": [{"entity": "腰椎椎管狭窄伴压迫神经根"}]}
 {"grade": "U", "data": [{"entity": "椎体不稳"}]}
 {"grade": "U", "data": [{"entity": "肺结节首次发现", "value": "B类"}]}
-{"grade": "U", "data": [{"entity": "3-12月随访"}]}
+{"grade": "U", "data": [{"entity": "肺毛玻璃结节", "value": 4.034437725871534, "unit": "mm"}]}
 {"grade": "U", "data": [{"entity": "纵隔结节"}]}
 {"grade": "U", "data": [{"entity": "首次发现肝占位"}, {"entity": "肝占位", "value": 5, "unit": "cm"}]}
 {"grade": "U", "data": [{"entity": "良性病变可能"}]}
@@ -265,7 +265,7 @@
 {"grade": "U", "data": [{"entity": "肾错构瘤"}]}
 {"grade": "U", "data": [{"entity": "肾上腺结节肿块"}]}
 {"grade": "U", "data": [{"entity": "附件囊肿"}, {"entity": "生理性囊肿"}]}
-{"grade": "U", "data": [{"entity": "中重度通气功能障碍"}, {"entity": "限制性"}]}
+{"grade": "U", "data": [{"entity": "中重度通气功能障碍"}, {"entity": "阻塞性"}, {"entity": "限制性"}]}
 {"grade": "U", "data": [{"entity": "中重度OSAS"}]}
 {"grade": "U", "data": [{"entity": "夜间低氧"}]}
 {"grade": "U", "data": [{"entity": "中重度食管炎"}]}
@@ -276,14 +276,14 @@
 {"grade": "U", "data": [{"entity": "结肠炎"}]}
 {"grade": "A", "data": [{"entity": "急性传染病口腔病变的体征"}]}
 {"grade": "A", "data": [{"entity": "妇科急腹症"}]}
-{"grade": "A", "data": [{"entity": "心肌肌钙蛋白（cTnT）", "value": 254.39276130508026, "unit": "ng/ml"}]}
+{"grade": "A", "data": [{"entity": "心肌肌钙蛋白（cTnT）", "value": 402.5222935811953, "unit": "ng/ml"}]}
 {"grade": "A", "data": [{"entity": "异位妊娠"}]}
 {"grade": "A", "data": [{"entity": "卵巢囊肿蒂扭转"}]}
 {"grade": "A", "data": [{"entity": "卵巢囊肿破裂"}]}
 {"grade": "A", "data": [{"entity": "黄体破裂"}]}
-{"grade": "A", "data": [{"entity": "PH", "value": 361.3427949885844}]}
-{"grade": "A", "data": [{"entity": "PaCO2", "value": 43.47402988401109, "unit": "mmHg"}]}
-{"grade": "A", "data": [{"entity": "PaO2", "value": 5.728603949217051, "unit": "mmHg"}]}
+{"grade": "A", "data": [{"entity": "PH", "value": -9.499101788936464}]}
+{"grade": "A", "data": [{"entity": "PaCO2", "value": 37.867317902306496, "unit": "mmHg"}]}
+{"grade": "A", "data": [{"entity": "PaO2", "value": -2.605183859632678, "unit": "mmHg"}]}
 {"grade": "B", "data": [{"entity": "腹部触诊（结合腹部超声检查结论）触及高度可疑恶性包块的体征"}, {"entity": "巨脾"}]}
 {"grade": "B", "data": [{"entity": "外耳道肿物"}]}
 {"grade": "B", "data": [{"entity": "鼻腔肿物"}]}

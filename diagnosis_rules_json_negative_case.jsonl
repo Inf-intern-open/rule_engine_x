@@ -1,29 +1,28 @@
-{"diagnosis": "糖尿病", "data": [{"entity": "随机血糖", "value": 1.3353527636550613, "unit": "mmol/L"}, {"entity": "空腹血糖", "value": -7.257942489548714, "unit": "mmol/L"}]}
-{"diagnosis": "脂肪肝轻度", "data": [{"entity": "弥漫性肝脏密度降低"}, {"entity": "肝/脾CT比值", "value": 21.868575908265328}]}
-{"diagnosis": "脂肪肝重度", "data": [{"entity": "弥漫性肝脏密度降低", "value": 339.8942570932828}, {"entity": "肝/脾CT比值", "value": 244.85040080181457}]}
-{"diagnosis": "脂肪肝中度", "data": [{"entity": "弥漫性肝脏密度降低", "value": 307.0741474138396}, {"entity": "肝/脾CT比值", "value": 195.08823576882682}]}
-{"diagnosis": "甲状旁腺功能减退症", "data": [{"entity": "血清钙", "value": 45.074784604419925, "unit": "mmol/L"}, {"entity": "血清游离钙", "value": 237.58365748783567, "unit": "mmol/L"}, {"entity": "PTH", "value": -0.7350680325477832, "unit": "ng/L"}]}
-{"diagnosis": "细菌性肝脓肿", "data": [{"entity": "血白细胞计数", "value": 5.5595048815213275, "unit": "×10^9/L"}, {"entity": "中性粒细胞百分比", "value": 1.9263353470257183, "unit": "%"}, {"entity": "肝脏超声包含脓肿内液平面"}]}
-{"diagnosis": "急性阑尾炎", "data": [{"entity": "血白细胞计数", "value": -9.646018842250008, "unit": "×10^9/L"}, {"entity": "超声检查包含中呈低回声管状结构"}, {"entity": "超声检查包含较僵硬"}, {"entity": "超声检查包含横切面呈同心圆似靶样显影"}]}
-{"diagnosis": "破伤风", "data": [{"entity": "破伤风IgG抗体", "value": -4.134447514983554, "unit": "IU/ml"}]}
-{"diagnosis": "骨质疏松症", "data": [{"entity": "绝经"}, {"entity": "性别", "value": "女"}, {"entity": "性别", "value": "男"}, {"entity": "T-值", "value": 247.81635050988604}, {"entity": "绝经前"}, {"entity": "性别", "value": "女"}, {"entity": "年龄", "value": 296.42419572999654, "unit": "岁"}, {"entity": "性别", "value": "男"}, {"entity": "Z-值", "value": 322.87106645804397}]}
-{"diagnosis": "2级高血压（中度）", "data": [{"entity": "收缩压", "value": 289.81056159446604, "unit": "mmHg"}]}
-{"diagnosis": "3级高血压（重度）", "data": [{"entity": "收缩压", "value": 106.42437838074378, "unit": "mmHg"}]}
-{"diagnosis": "1级高血压（轻度）", "data": [{"entity": "收缩压", "value": 315.3518613553505, "unit": "mmHg"}, {"entity": "舒张压", "value": 397.41587496017615, "unit": "mmHg"}]}
+{"diagnosis": "糖尿病", "data": [{"entity": "2小时血糖", "value": 3.608273813367701, "unit": "mmol/L"}]}
+{"diagnosis": "脂肪肝轻度", "data": [{"entity": "弥漫性肝脏密度降低"}, {"entity": "肝/脾CT比值", "value": 312.67489887904577}]}
+{"diagnosis": "脂肪肝重度", "data": [{"entity": "弥漫性肝脏密度降低", "value": 63.118544481879056}, {"entity": "肝/脾CT比值", "value": 186.6668183860332}]}
+{"diagnosis": "脂肪肝中度", "data": [{"entity": "弥漫性肝脏密度降低", "value": 99.56900855046703}, {"entity": "肝/脾CT比值", "value": 166.16572349432886}]}
+{"diagnosis": "甲状旁腺功能减退症", "data": [{"entity": "血清钙", "value": 442.0538861073082, "unit": "mmol/L"}, {"entity": "血清游离钙", "value": 332.9895970948046, "unit": "mmol/L"}, {"entity": "PTH", "value": 42.23958712863668, "unit": "ng/L"}]}
+{"diagnosis": "细菌性肝脓肿", "data": [{"entity": "血白细胞计数", "value": 11.982499945024301, "unit": "×10^9/L"}, {"entity": "中性粒细胞百分比", "value": 18.423742526224196, "unit": "%"}, {"entity": "肝脏超声包含脓肿内液平面"}]}
+{"diagnosis": "急性阑尾炎", "data": [{"entity": "血白细胞计数", "value": -0.6556255527580781, "unit": "×10^9/L"}, {"entity": "超声检查包含中呈低回声管状结构"}, {"entity": "超声检查包含较僵硬"}, {"entity": "超声检查包含横切面呈同心圆似靶样显影"}]}
+{"diagnosis": "破伤风", "data": [{"entity": "破伤风IgG抗体", "value": -8.92103255193786, "unit": "IU/ml"}]}
+{"diagnosis": "骨质疏松症", "data": [{"entity": "年龄", "value": 50, "unit": "岁"}, {"entity": "性别", "value": "男"}, {"entity": "T-值", "value": 296.9225481353527}]}
+{"diagnosis": "2级高血压（中度）", "data": [{"entity": "收缩压", "value": 319.3236400335557, "unit": "mmHg"}]}
+{"diagnosis": "3级高血压（重度）", "data": [{"entity": "收缩压", "value": 25.122113526588322, "unit": "mmHg"}]}
+{"diagnosis": "1级高血压（轻度）", "data": [{"entity": "收缩压", "value": 413.56877511811, "unit": "mmHg"}, {"entity": "舒张压", "value": 153.05222568084648, "unit": "mmHg"}]}
 {"diagnosis": "慢性乙型病毒性肝炎", "data": [{"entity": "乙肝表面抗原", "value": "阳性"}]}
-{"diagnosis": "肝癌", "data": [{"entity": "乙型肝炎"}, {"entity": "丙型肝炎"}, {"entity": "甲胎蛋白", "value": -3.419950009564227, "unit": "ng/ml"}, {"entity": "肝实质性肿块且具有肝癌典型影像学表现"}]}
-{"diagnosis": "乳腺增生性疾病", "data": [{"entity": "乳腺增生性疾病类别", "value": "1类"}, {"entity": "乳腺增生性疾病类别", "value": "2类"}, {"entity": "乳腺增生性疾病类别", "value": "3类"}, {"entity": "乳腺增生性疾病类别", "value": "4类"}, {"entity": "乳腺增生性疾病边界清楚"}]}
-{"diagnosis": "黄疸", "data": [{"entity": "总胆红素", "value": -3.751297596038696, "unit": "umol/L"}]}
-{"diagnosis": "胃泌素瘤", "data": [{"entity": "胃泌素", "value": 275.3476812257558, "unit": "pg/ml"}, {"entity": "胃酸pH", "value": 154.83034260243565}]}
-{"diagnosis": "慢阻肺", "data": [{"entity": "FEV1/FVC", "value": 145.1365193605686, "unit": "%"}]}
-{"diagnosis": "阿米巴性肝脓肿", "data": [{"entity": "血白细胞计数", "value": -5.1237703736658435, "unit": "×10^9/L"}, {"entity": "中性粒细胞百分比", "value": 19.28836905189086, "unit": "%"}, {"entity": "碱性磷酸酶", "value": 0.45068017225673884, "unit": "IU/L"}, {"entity": "阿米巴抗体", "value": 13.203781469584627, "unit": "%"}]}
-{"diagnosis": "慢性胰腺炎", "data": [{"entity": "IgG4", "value": 316.63128262719897, "unit": "mg/L"}]}
-{"diagnosis": "肠易激综合征", "data": [{"entity": "每天排便", "value": 1.317468558496694, "unit": "次"}]}
-{"diagnosis": "泌尿系统结核", "data": [{"entity": "酸碱度", "value": 478.7910183441878}, {"entity": "尿蛋白", "value": "++"}, {"entity": "尿红细胞", "value": -3.9472447882161026}, {"entity": "尿白细胞", "value": -2.807792907202492}]}
-{"diagnosis": "酒精性肝病", "data": [{"entity": "谷草/谷丙", "value": -4.4750171107552426}, {"entity": "饮酒史", "value": -3.499088025017678, "unit": "年"}]}
-{"diagnosis": "急性胰腺炎", "data": [{"entity": "血白细胞计数", "value": 2.3225761103847233, "unit": "10^9/L"}, {"entity": "C反应蛋白", "value": 89.7359641525427, "unit": "mg/L"}, {"entity": "空腹血糖", "value": -0.003561575062626332, "unit": "mmol/L"}, {"entity": "总胆红素", "value": 0.7977684935367275, "unit": "μmol/L"}, {"entity": "谷草转氨酶", "value": 5.250878852274374, "unit": "U/L"}, {"entity": "谷丙转氨酶", "value": 12.766942744080943, "unit": "U/L"}, {"entity": "血清蛋白", "value": 490.10378208211904, "unit": "g/L"}, {"entity": "尿素氮", "value": 3.275294422516028, "unit": "mmol/L"}, {"entity": "尿肌酐", "value": 2.4936508116624356, "unit": "μmol/L"}, {"entity": "血氧分压", "value": 122.63993135375662, "unit": "mmHg"}, {"entity": "血清钙", "value": 17.705432091053883, "unit": "mmol/L"}, {"entity": "甘油三酯", "value": -2.5241922460579156, "unit": "mmol/L"}, {"entity": "血钠", "value": 344.04820678876433, "unit": "mmol/L"}, {"entity": "血钾", "value": 3.3437505141904467, "unit": "mmol/L"}, {"entity": "血液pH值", "value": -5.952912038832506}]}
-{"diagnosis": "直肠肛管周围脓肿", "data": [{"entity": "血白细胞计数", "value": 0.6482727103957906, "unit": "10^9/L"}, {"entity": "中性粒细胞百分比", "value": 48.67737577492975, "unit": "%"}, {"entity": "降钙素原", "value": -6.53837296777324, "unit": "ng/ml"}, {"entity": "C反应蛋白", "value": -2.3430871225380008, "unit": "mg/L"}]}
-{"diagnosis": "细菌性肝脓肿", "data": [{"entity": "肝脓肿"}, {"entity": "中性粒细胞百分比", "value": 0.9239997361525791, "unit": "%"}, {"entity": "血白细胞计数", "value": 8.43268538231407, "unit": "10^9/L"}]}
-{"diagnosis": "阿米巴性肝脓肿", "data": [{"entity": "血白细胞计数", "value": 14.713276749861219, "unit": "10^9/L"}, {"entity": "中性粒细胞百分比", "value": 63.465722032291154, "unit": "%"}, {"entity": "阿米巴抗体", "value": 61.09847020026531}, {"entity": "碱性磷酸酶", "value": 14.04637867144583, "unit": "U/L"}, {"entity": "肝脓肿"}]}
-{"diagnosis": "肝外胆管结石", "data": [{"entity": "肝总管结石"}, {"entity": "直接胆红素", "value": 4.102518661841909, "unit": "umol/L"}]}
-{"diagnosis": "甲状旁腺功能减退症", "data": [{"entity": "甲状旁腺激素", "value": 23.30525252472289, "unit": "pg/ml"}, {"entity": "血清钙", "value": 337.1308308981922, "unit": "mmol/L"}, {"entity": "血清游离钙", "value": 63.56659382459673, "unit": "mmol/L"}]}
+{"diagnosis": "肝癌", "data": [{"entity": "乙型肝炎"}, {"entity": "丙型肝炎"}, {"entity": "甲胎蛋白", "value": 227.08357802863364, "unit": "ng/ml"}, {"entity": "肝实质性肿块且具有肝癌典型影像学表现"}]}
+{"diagnosis": "黄疸", "data": [{"entity": "总胆红素", "value": 5.8840215590248235, "unit": "umol/L"}]}
+{"diagnosis": "胃泌素瘤", "data": [{"entity": "基础胃酸排泄量测定(BAO)", "value": 1.4755225873411337, "unit": "mmol/h"}]}
+{"diagnosis": "慢阻肺", "data": [{"entity": "FEV1/FVC", "value": 87.59588220822684, "unit": "%"}]}
+{"diagnosis": "阿米巴性肝脓肿", "data": [{"entity": "血白细胞计数", "value": 13.514101394335349, "unit": "×10^9/L"}, {"entity": "中性粒细胞百分比", "value": 69.31970348659311, "unit": "%"}, {"entity": "碱性磷酸酶", "value": 136.25871381310554, "unit": "IU/L"}, {"entity": "阿米巴抗体", "value": 45.65722796547071, "unit": "%"}]}
+{"diagnosis": "慢性胰腺炎", "data": [{"entity": "IgG4", "value": 215.745470953051, "unit": "mg/L"}]}
+{"diagnosis": "肠易激综合征", "data": [{"entity": "每天排便", "value": -0.27649050384151685, "unit": "次"}]}
+{"diagnosis": "泌尿系统结核", "data": [{"entity": "酸碱度", "value": 200.91556455152985}, {"entity": "尿蛋白", "value": "++"}, {"entity": "尿红细胞", "value": -7.8914638916771525}, {"entity": "尿白细胞", "value": -8.768804094250825}]}
+{"diagnosis": "酒精性肝病", "data": [{"entity": "谷草/谷丙", "value": -4.985076486063138}, {"entity": "饮酒史", "value": -9.53550590667994, "unit": "年"}]}
+{"diagnosis": "急性胰腺炎", "data": [{"entity": "血白细胞计数", "value": 3.8992171566228535, "unit": "10^9/L"}, {"entity": "C反应蛋白", "value": -7.046255278630653, "unit": "mg/L"}, {"entity": "空腹血糖", "value": -3.4139335383821026, "unit": "mmol/L"}, {"entity": "总胆红素", "value": 6.064740611561962, "unit": "μmol/L"}, {"entity": "谷草转氨酶", "value": 26.42266477041298, "unit": "U/L"}, {"entity": "谷丙转氨酶", "value": 33.75095521916365, "unit": "U/L"}, {"entity": "血清蛋白", "value": 286.4845191447913, "unit": "g/L"}, {"entity": "尿素氮", "value": -7.8535607079877225, "unit": "mmol/L"}, {"entity": "尿肌酐", "value": -3.605652455005675, "unit": "μmol/L"}, {"entity": "血氧分压", "value": 201.2198899486089, "unit": "mmHg"}, {"entity": "血清钙", "value": 8.853269696972776, "unit": "mmol/L"}, {"entity": "甘油三酯", "value": -6.081309797653697, "unit": "mmol/L"}, {"entity": "血钠", "value": 233.75996365085615, "unit": "mmol/L"}, {"entity": "血钾", "value": 91.00647641744295, "unit": "mmol/L"}, {"entity": "血液pH值", "value": 451.2750796950529}]}
+{"diagnosis": "直肠肛管周围脓肿", "data": [{"entity": "血白细胞计数", "value": 5.782134366729519, "unit": "10^9/L"}, {"entity": "中性粒细胞百分比", "value": 0.9427540023781429, "unit": "%"}, {"entity": "降钙素原", "value": -9.52965526041611, "unit": "ng/ml"}, {"entity": "C反应蛋白", "value": 7.087437290841557, "unit": "mg/L"}]}
+{"diagnosis": "细菌性肝脓肿", "data": [{"entity": "肝脓肿"}, {"entity": "中性粒细胞百分比", "value": 43.48872696466918, "unit": "%"}, {"entity": "血白细胞计数", "value": 10.841736233700072, "unit": "10^9/L"}]}
+{"diagnosis": "阿米巴性肝脓肿", "data": [{"entity": "血白细胞计数", "value": -6.607487960085229, "unit": "10^9/L"}, {"entity": "中性粒细胞百分比", "value": 15.633837463180296, "unit": "%"}, {"entity": "阿米巴抗体", "value": 45.265321084545945}, {"entity": "碱性磷酸酶", "value": 45.584451498785434, "unit": "U/L"}, {"entity": "肝脓肿"}]}
+{"diagnosis": "肝外胆管结石", "data": [{"entity": "胆管结石"}, {"entity": "肝总管结石"}, {"entity": "直接胆红素", "value": -8.110319588058484, "unit": "umol/L"}]}
+{"diagnosis": "甲状旁腺功能减退症", "data": [{"entity": "甲状旁腺激素", "value": -9.499283599259142, "unit": "pg/ml"}, {"entity": "血清钙", "value": 264.9866253890947, "unit": "mmol/L"}, {"entity": "血清游离钙", "value": 496.12091107486856, "unit": "mmol/L"}]}

@@ -102,7 +102,7 @@ def change_value_positive(mylist):
         if count_occurrences(mylist, item['entity']) == 2:
             if item['rule_type'] == 'abnormal_quantifiable_rule':
                 try:
-                    if item['operator']=='>' or item['operator']=='≥':
+                    if item['operator']=='>' or item['operator']=='≥' or item['operator'] == '>=':
                         a=item['value']
                     else:
                         b=item['value']
@@ -116,7 +116,7 @@ def change_value_positive(mylist):
                 if item['rule_type']=='abnormal_quantifiable_rule':
                     if item['operator'] == 'in':
                         item['value']=item['value'][random.randint(0,len(item['value'])-1)]
-                    if item['operator']=='>' or item['operator']=='≥':
+                    if item['operator']=='>' or item['operator']=='≥' or item['operator'] == '>=':
                         item['value'] = random.uniform(item['value'] , 500)
                     else:
                         item['value'] = random.uniform(-10,item['value'] )
@@ -132,7 +132,7 @@ def change_value_negative(mylist):
     for item in mylist:
         if count_occurrences(mylist, item['entity']) == 2:
             try:
-                if item['operator'] == '>' or item['operator'] == '≥':
+                if item['operator'] == '>' or item['operator'] == '≥' or item['operator'] == '>=':
                     a = item['value']
                 else:
                     b = item['value']
@@ -144,7 +144,7 @@ def change_value_negative(mylist):
                 if item['rule_type'] == 'abnormal_quantifiable_rule':
                     if item['operator'] == 'in':
                         item['value']=item['value'][len(item['value'])-random.randint(0,len(item['value'])-1)-1]
-                    if item['operator'] == '>' or item['operator'] == '≥':
+                    if item['operator'] == '>' or item['operator'] == '≥' or item['operator'] == '>=':
                         item['value'] = random.uniform(-10, item['value'])
                     else:
 
