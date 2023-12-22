@@ -15,6 +15,7 @@ with open('C:/Users/ThinkPad/Downloads/diagnosis_rules_json.jsonl', 'r', encodin
         l1.append(dic)
 
     for num in range(28,len(l1)):
+        print(len(l1))
         for element in combinations(l1, num):
             dic_res = {}
             l_combinelist_diadnosis = []
@@ -70,6 +71,7 @@ with open('C:/Users/ThinkPad/Downloads/diagnosis_rules_json.jsonl', 'r', encodin
         l2.append(dic)
 
     for num in range(28, len(l2)):
+        print(len(l2))
         for element in combinations(l2, num):
             dic_res = {}
             l_combinelist_diadnosis = []
@@ -77,7 +79,7 @@ with open('C:/Users/ThinkPad/Downloads/diagnosis_rules_json.jsonl', 'r', encodin
             # print(element)
             # print(0)
             for dict in element:
-                print(dict)
+                # print(dict)
                 try:
                     l_combinelist_diadnosis.append(dict['diagnosis'])
                     l_combinelist_result += classify.negative_cases(dict['rule_detail'])
